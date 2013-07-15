@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>ChatDemo</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="formhtml.css">
+	
+	<script src="http://localhost:2011/socket.io/socket.io.js"></script>
+		    <script src="formhtml.js"></script>
+
+
+</head>
+<body>
+		<article>
+			<label id="greetings"></label>
+			<textarea readonly id="chatArea" wrap="hard" rows="20"></textarea>
+			<div id="controls">
+				<div id="ctrlName">
+					<label id="nickLab">Nick</label>
+					<input id="nick" type="text" placeholder="Your Nickname" required >
+				</div>
+				<div id="ctrlMsg">
+					<label id="msgLab">Your message</label>
+					<input id="msg" type="text" placeholder="write something and press <enter>" size="100" required >
+					<button id="button" type="button">Send!</button>
+				</div>
+				
+			</div>
+		</article>
+			
+
+			
+		
+</body>
+</html>
