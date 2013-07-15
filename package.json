@@ -1,0 +1,11 @@
+{
+  "name": "node-example",
+  "version": "0.10.12",
+  "dependencies": {
+    "socket.io": "0.9.16"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}
