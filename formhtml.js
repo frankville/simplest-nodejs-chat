@@ -6,7 +6,7 @@ function start(){
 	once the form is loaded, start to register events and create a socket.io connection.
 	You can alter the port but you'll have to do it in the server-nodejs.js file too  
 	*/
-    websocket = io.connect("http://localhost:2011");
+    websocket = io.connect("http://54.232.202.205:2011");
 
 	websocket.on("greetings", greetings);
 
